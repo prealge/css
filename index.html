@@ -2,10 +2,14 @@
 <html>
   <head>
     <title>Prealge CSS Example</title>
-    <link rel="stylesheet" href="style.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="http://prealge2.github.io/css/style.css" crossorigin="anonymous">
   </head>
   <body>
     <h1 style="text-align: center">Prealge CSS Example</h1>
+    <br>
+    <h3 style="color: lightgray">Click a button to get its HTML code</h3>
+    <br>
+    <button onclick="getCode()" class="btn-primary">Click here to get a link to the css.</button>
     <br>
     <button onclick="primarybtn()" class="btn-primary">Primary</button>
     <button onclick="dangerbtn()">Danger</button>
@@ -22,6 +26,9 @@ function dangerbtn() {
 }
 function continuebtn() {
   alert('<button class="btn-continue"><span>Continue</span></button>');
+}
+function getCode() {
+  alert("<link rel="stylesheet" href="http://prealge2.github.io/css/style.css" crossorigin="anonymous">");
 }
    </script>
 </html>
