@@ -1,4 +1,4 @@
-# css
+# Prealge CSS
 Good, modern and easy to use css for free.
 
 To use Prealge CSS, simply paste the following code into the head of your website:
