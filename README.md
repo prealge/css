@@ -3,7 +3,7 @@ Good, modern and easy to use css for free.
 
 
 To use Prealge CSS, simply paste the following code into the head of your website:
-<link rel='stylesheet' href='https://prealge2.github.io/css/style.css' crossorigin='anonymous'>
+"<link rel='stylesheet' href='https://prealge2.github.io/css/style.css' crossorigin='anonymous'>"
 
 
 This CSS style sheet includes the following classes: 
