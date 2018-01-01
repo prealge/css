@@ -1,0 +1,93 @@
+
+button {
+  outline: none;
+}
+
+.btn-primary {
+  background-color: #00c62b;
+  color: #c9ffd5;
+}
+
+.btn-danger {
+  background-color: #f90202;
+  color: #f9c0c0;
+}
+
+.btn-primary, .btn-danger {
+  -webkit-transition-duration: 0.8s;
+  border: none;
+  padding: 6px 10px;
+  margin: 3px;
+  border-radius: 5px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.btn-danger:hover {
+  color:white;
+}
+.btn-primary:hover {
+  color: white;
+  border-radius: 15px;
+  border: none;
+}
+
+.btn-danger:active {
+  -webkit-transition-duration: 0s;
+  background-color: #f9c0c0;
+}
+
+.btn-primary:active {
+  -webkit-transition-duration: 0s;
+  background-color: #00da3f;
+  border: none;
+}
+
+.btn-continue {
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #00c62b;
+  border: none;
+  color: #c9ffd5;
+  text-align: center;
+  font-size: 15px;
+  padding: 6px 10px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 3px;
+}
+
+.btn-continue span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn-continue span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn-continue:hover span {
+  padding-right: 25px;
+  color: white;
+}
+
+.btn-continue:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+  .inp-primary {
+    -webkit-transition: 0.4s ease-in-out;
+    border: none;
+    border-bottom: 2px solid #00c62b;
+    font-size: 15px;
+    outline: none;
+  }
