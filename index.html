@@ -7,12 +7,21 @@
   <body>
     <h1 style="text-align: center">Prealge CSS Example</h1>
     <br>
-    <button onclick="alert('<button class="btn-primary">Primary</button>')" class="btn-primary">Primary</button>
-    <button onclick="alert('<button class="btn-danger">Danger</button>')" class="btn-danger">Danger</button>
-    <button onclick="alert('<button class="btn-continue"><span>Continue</span></button>')" class="btn-continue"><span>Continue</span></button>
+    <button onclick="primarybtn()" class="btn-primary">Primary</button>
+    <button onclick="dangerbtn()">Danger</button>
+    <button onclick="continuebtn()" class="btn-continue"><span>Continue</span></button>
     <br>
     <input class="inp-primary" placeholder="<input class="Primary Input">
    </body>
    <script>
+      function primarybtn() {
+  alert('<button class="btn-primary">Primary</button>');
+}
+function dangerbtn() {
+  alert('<button class="btn-danger">Danger</button>');
+}
+function continuebtn() {
+  alert('<button class="btn-continue"><span>Continue</span></button>');
+}
    </script>
 </html>
