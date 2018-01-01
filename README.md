@@ -4,11 +4,11 @@ Good, modern and easy to use css for free.
 To use Prealge CSS, simply paste the following code into the head of your website:
 <link rel='stylesheet' href='https://prealge2.github.io/css/style.css' crossorigin='anonymous'>
 
-This CSS style sheet includes the classes
-      btn-primary,
-      btn-danger,
-      btn-continue,
-      inp-primary,
+This CSS style sheet includes the classes 
+btn-primary 
+btn-danger
+btn-continue 
+inp-primary
     
  You can see examples of buttons and inputs benifitiing from Prealge CSS at https://prealge2.github.io/css/
  
