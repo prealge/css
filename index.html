@@ -5,30 +5,32 @@
     <link rel="stylesheet" href="style.css" crossorigin="anonymous">
   </head>
   <body>
-    <h1 style="text-align: center">Prealge CSS Example</h1>
-    <br>
-    <h3 style="color: lightgray">Click a button to get its HTML code</h3>
-    <br>
-    <button onclick="getCode()" class="btn-primary">Click here to get a link to the css.</button>
-    <br>
-    <button onclick="primarybtn()" class="btn-primary">Primary</button>
-    <button onclick="dangerbtn()">Danger</button>
-    <button onclick="continuebtn()" class="btn-continue"><span>Continue</span></button>
-    <br>
-    <input class="inp-primary" placeholder="<input class="Primary Input">
+    <center>
+      <h1>Prealge CSS Example</h1>
+      <br>
+      <h3 style="color: lightgray">Click a button to get its HTML code</h3>
+      <br>
+      <button onclick="getCode()" class="btn-primary">Click here to get a link to the css.</button>
+      <br>
+      <button onclick="primarybtn()" class="btn-primary">Primary</button>
+      <button onclick="dangerbtn()" class="btn-danger">Danger</button>
+      <button onclick="continuebtn()" class="btn-continue"><span>Continue</span></button>
+      <br>
+      <input class="inp-primary" placeholder="<input class="Primary Input">
+    </center>
    </body>
    <script>
       function primarybtn() {
-  alert('<button class="btn-primary">Primary</button>');
+  alert("<button class='btn-primary'>Primary</button>");
 }
 function dangerbtn() {
-  alert('<button class="btn-danger">Danger</button>');
+  alert("<button class='btn-danger'>Danger</button>");
 }
 function continuebtn() {
-  alert('<button class="btn-continue"><span>Continue</span></button>');
+  alert("<button class='btn-continue'><span>Continue</span></button>");
 }
 function getCode() {
-  alert("<link rel="stylesheet" href="https://prealge2.github.io/css/style.css" crossorigin="anonymous">");
+  alert("<link rel='stylesheet' href='https://prealge2.github.io/css/style.css' crossorigin='anonymous'>");
 }
    </script>
 </html>
