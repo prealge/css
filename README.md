@@ -8,13 +8,9 @@ To use Prealge CSS, simply paste the following code into the head of your websit
 
 This CSS style sheet includes the following classes: 
 
-btn-primary
-
-btn-danger
-
-btn-continue
-
-inp-primary
+<button class="btn-primary">Primary</button>
+<button class="btn-danger">Danger</button>
+<button class="btn-continue"><span>Continue</span></button>
 
     
  You can see examples of buttons and inputs benifitiing from Prealge CSS at https://prealge2.github.io/css/
