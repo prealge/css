@@ -99,3 +99,35 @@ button {
     font-size: 15px;
     outline: none;
   }
+
+  .dropdown-content {
+    display: none;
+    border-radius: 8px;
+    background-color: #f2f2f2;
+    color: #474747;
+    padding: 15px;
+  }
+  
+  .content:hover {
+    color: #8d8d8d;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-top {
+    background-color: #00c62b;
+    color: #c9ffd5;
+    -webkit-transition-duration: 0.8s;
+    border: none;
+    padding: 6px 10px;
+    margin: 3px;
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: center;
+    width:25%;
+  }
+  .dropdown-top:hover {
+    color: white;
+  }
